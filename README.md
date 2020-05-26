@@ -3,8 +3,9 @@
 Compile
 ---
 ```
-# cd to OpenWrt source path/package/network
-# Clone this repo
+# cd to OpenWrt source path
+# cd to package/network and Clone this repo
+cd package/network;git clone https://github.com/awe1p/stun.git
 # go back to OpenWrt source path
 cd -
 # Select Network -> stun-client and Network -> stund
